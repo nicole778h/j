@@ -1,0 +1,396 @@
+:root {
+    --brand-color-iris: #4D5AE5; /* for the logo only */
+    --brand-color-ocean:#404BBF; /* for the app button only */
+    --brand-color-navy-blue: #2E2F42; 
+    --brand-color-slate: #434455;
+    --text-font-family: 'Roboto',  sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+}
+
+/* global styles */
+body {
+    font-family: var(--text-font-family);
+    background-color: #FFF;
+    color: var(--brand-color-slate);
+
+}
+ 
+a{
+    text-decoration: none;
+}
+
+/* clsses */
+
+.logo {
+    font-family: var(--logo-font-family);
+    color: var(--brand-color-iris);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-link {
+    font-family: var(--logo-font-family);
+    color: var(--brand-color-navy-blue);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.link {
+    
+    text-decoration: none;
+}
+
+.nav-link {
+    color: var(--brand-color-navy-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 24px 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--brand-color-ocean);
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--brand-color-navy-blue);
+}
+
+
+
+.contacts {
+    color: var(--brand-color-slate);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--brand-color-ocean);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.list{
+    list-style: none;
+}
+
+.adress {
+    font-style: normal;
+}
+
+.first-section {
+    background-color: var(--brand-color-navy-blue);
+
+}
+
+.first-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+
+.order-service-button {
+    background-color: var(--brand-color-iris);
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color: var(--brand-color-ocean);
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-navy-blue);
+
+}
+
+.list-paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--brand-color-navy-blue);
+
+}
+
+.forth-section {
+    background-color: #F4F4FD;
+
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color-navy-blue);
+}
+
+.list-item {
+    background-color: #FFFFFFFF;
+}
+
+.all-button{
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--brand-color-iris);
+    background-color: #F4F4FD;
+    cursor: pointer;
+
+}
+
+.all-button:hover,
+.all-button:focus {
+    color: #FFFFFFFF;
+    background-color: var(--brand-color-ocean);
+    border: 1px solid transparent;
+
+}
+
+.footer-paragraph {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.logo {
+    margin-right: 76px;
+}
+
+.logo-link {
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-search {
+    padding: 24px 0;
+}
+
+.img {
+    display: block;
+}
+
+.first-section {
+    padding: 188px 0;
+}
+
+.first-title {
+    max-width: 496px;
+}
+
+.order-service-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.second-section {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.what-are-we-doing-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list {
+    width: 100%;
+    min-width: 264px;
+}
+
+.list-title {
+    margin-bottom: 8px;
+}
+
+.third-section {
+    padding-bottom: 120px;
+}
+
+.second-title {
+    margin-bottom: 72px;
+}
+
+.image-list {
+    display: flex;
+    gap: 24px;
+}
+
+.image-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.forth-section {
+    padding: 120px 0;
+}
+
+.our-team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--brand-color-navy-blue);
+    margin-bottom: 72px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.list-item {
+    width: 100%;
+    min-width: 264px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member {
+    padding: 32px 0;
+}
+
+.list-member-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.list-member-paragraph {
+    text-align: center;
+}
+
+.footer {
+    padding: 100px 0 ;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-paragraph {
+    max-width: 264px;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    background: #FFF;
+    
+}
+
+.div-member {
+    padding: 32px 0;
+}
+
+.header-div {
+    display: flex;
+}
+
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.all-button {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list-item-picture {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
